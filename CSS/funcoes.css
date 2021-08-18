@@ -1,0 +1,16 @@
+/*
+# Funções
+
+* nome seguido de abre e fecha parentesis
+* recebe argumento
+
+## Exemplos
+
+*/
+
+@import url("http://urlaqui.com/style.css");
+
+a {
+    color: rgb(255, 0, 100); /* rgb é uma funcão */
+    width: calc (100% - 10px); /* width é uma função */
+}

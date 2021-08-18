@@ -1,5 +1,4 @@
-# Anatomia
-```css
+/* # Anatomia */
 h1{
     color: blue;
     font-size: 60px;
@@ -8,15 +7,15 @@ h1{
 
 h2{
     color: red;
-    font-size: 55px;
-    background: #000;
+    font-size: 23px;
+    background: black;
 }
-```
 
+/*
 * Selector - h1, 2
 * Declaration - All.
 * Properties - color, font-size, background.
-* Property Value - blue, 60px, gray / #ffffff, 23px, #000000.
+* Property Value - blue, 60px, gray / #fff, 23px, black.
 
 ## Exemplo
 
@@ -26,7 +25,9 @@ h2{
 ```css
 h1{
     color: red;
-    font-size: 23px
+    font-size: 23px;
     background: gray;
 }
 ```
+*/
+
