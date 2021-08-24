@@ -37,6 +37,6 @@ let number1 = 34
 let number2 = 25
 sum(number1, number2)
 
-console.log(`o npumero 1 é ${number1}`)
-console.log(`o npumero 2 é ${number2}`)
+console.log(`o numero 1 é ${number1}`)
+console.log(`o numero 2 é ${number2}`)
 console.log(`a soma é ${sum(number1, number2)}`)
