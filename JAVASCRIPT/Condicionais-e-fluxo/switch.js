@@ -13,7 +13,7 @@ switch (expression){
         break
 }
 
-// Calculadora Simple
+// Calculadora Simples
 
 function calculate(number1, operator, number2) {
     let result
