@@ -192,3 +192,118 @@
     >
     <button type="submit">Enviar</button>
 </form>
+
+<!--
+    <input type="file">
+
+    - Usuário poderá escolher 1 ou mais arquivos para enviar no formulário
+
+    # Atributos
+    
+    - value
+        - contém o arquivo a ser enviado
+    - accept
+        - descreve que tipos de arquivos serão aceitos
+        - exemplo: .doc, .docx, .pdf, audio/*, image/png, .png
+    - files
+        - a lista de arquivo ou arquivos
+    - multiple
+        - permite o envio de múltiplos arquivos
+    
+    * Envio dos arquivos
+        * Para envio dos arquivos o formulário deverá utilizar o método POST e
+        o atributo enctype como "multipart/form-data"
+-->
+
+<form action="" method="post" enctype="multipart/form-data">
+    <input type="file">
+</form>
+
+<!--
+    <input type="color">
+
+    - Interface para selecionar cor
+    - Color picker
+
+    # Atributos
+    - value: RGB
+        - Se inválido, o preto será exibido
+    - list
+        * o id de uma tag <datalist> que está no mesmo documento
+-->
+
+<input type="color">
+
+<!--
+    <input type="checkbox">
+
+    - Caixas que podem ser marcadas
+    - Selecionar um valor para ser enviado
+    - Se não selecionado, não será enviado nenhum dado
+
+    # Atributos
+    - globais
+    - value
+        * valor que aquele campo contém
+        * se não estiver presente, o padrão é 'on'
+    - checked
+        * para deixar o campo marcado por padrão 
+    
+-->
+
+<input type="checkbox">
+
+<!--
+    <input type="hidden" name="id" value="">
+
+    - invisível ao usuário
+    - será enviado com o formulário
+    - não receberá foco
+    - leitores de tela não percebem esse campo
+
+-->
+
+<input type="hidden" name="id" value="10">
+
+<!--
+    <input type="radio">
+
+    - Projetado para selecionar uma única opção de um grupo
+    de opções
+
+    # Atributos essenciais
+    - checked
+        - indica que o campo foi marcado
+    - value
+        - valor que aquele campo contém
+-->
+
+<input type="radio">
+
+<fieldset>
+    <legend>Você gosta de chocolate?</legend>
+    <label for="yep">sim</label>
+    <input type="radio" id="yep" name="chocolate" value="yes">
+
+    <label for="nono">não</label>
+    <input checked type="radio" id="nono" name="chocolate" value="no"> 
+</fieldset>
+
+<!--
+    <input type="range">
+
+    - controle para selecionar um valor numérico
+    - slider ou dial control
+
+    # Atributos
+    - max/min
+    - step
+-->
+<input type="range" min="1" max="10" step="5">
+
+<!--
+    <input type="date">
+
+    - Campo para o usuário selecionar uma data
+-->
+<input type="date">
